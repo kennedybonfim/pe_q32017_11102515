@@ -9,12 +9,22 @@ int main(){
 
 	printf("Entre com um expoente inteiro para x: ");
 	scanf("%d",&expoente);
-	
+
 	num = x;
 
-	for ( int i = 1; i < expoente; i++){
+	if(expoente == 0){
+		
+		x = 1;
 	
-		x*=num;
+	}
+
+	else {
+	
+		for ( int i = 1; i < expoente; i++){
+	
+			x*=num;
+
+		}
 
 	}
 	
