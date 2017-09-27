@@ -22,13 +22,13 @@ int main(){
 	if(opcao == 1){
 		
 		temperatura=(temperatura*1.8)+32;
-		printf("A temperatura equivalente e %.1fºC\n",temperatura);	
+		printf("A temperatura equivalente e %.1fºF\n",temperatura);	
 
 	}
 	else {
 
 		temperatura=(temperatura-32)/1.8;
-		printf("A temperatura equivalente e %.1fºF\n",temperatura);
+		printf("A temperatura equivalente e %.1fºC\n",temperatura);
 
 	}
 	
