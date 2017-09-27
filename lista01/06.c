@@ -8,11 +8,22 @@ int main(){
 	
 	contador = x;
 	fatorial = x;
+
+	if (contador == 0){
+
+		fatorial = 1;
+
+	}
 	
-	for ( int i = 1; i < contador; i++){
+	else {
+
+
+		for ( int i = 1; i < contador; i++){
 	
-		fatorial*= (x-1);
-		--x;
+			fatorial*= (x-1);
+			--x;
+
+		}
 
 	}
 	
