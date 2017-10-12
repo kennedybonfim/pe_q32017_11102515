@@ -25,6 +25,8 @@ int main(){
 		printf("Cargo         : Diretor\n# de faltas   : %d\n# horas-extras: %d\n",faltas,horasExtras);
 		printf("Descontos     : %.1f\nAcrescismos   : %.1f\nSalario       : %.1f\n",descontos,acrescimos,salarioBase);
 
+	break;
+
 	case 2:
 		salarioBase = 8000;
 		descontos = faltas*(salarioBase/20);
@@ -33,6 +35,8 @@ int main(){
 
 		printf("Cargo         : Gerente\n# de faltas   : %d\n# horas-extras: %d\n",faltas,horasExtras);
 		printf("Descontos     : %.1f\nAcrescismos   : %.1f\nSalario       : %.1f\n",descontos,acrescimos,salarioBase);
+
+	break;
 
 	case 3:
 		salarioBase = 5000;
@@ -43,6 +47,8 @@ int main(){
 		printf("Cargo         : Engenheiro\n# de faltas   : %d\n# horas-extras: %d\n",faltas,horasExtras);
 		printf("Descontos     : %.1f\nAcrescismos   : %.1f\nSalario       : %.1f\n",descontos,acrescimos,salarioBase);
 
+	break;
+
 	case 4:
 		salarioBase = 3000;
 		descontos = faltas*(salarioBase/20);
@@ -51,6 +57,8 @@ int main(){
 
 		printf("Cargo         : Tecnico\n# de faltas   : %d\n# horas-extras: %d\n",faltas,horasExtras);
 		printf("Descontos     : %.1f\nAcrescismos   : %.1f\nSalario       : %.1f\n",descontos,acrescimos,salarioBase);
+
+	break;
 
  	case 5:
 		salarioBase = 2000;
