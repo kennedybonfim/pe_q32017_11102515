@@ -28,5 +28,5 @@ int main()
 	leVetor(v2,i);
 	somaVetor(v1,v2,i);
 
+	return 0;
 }
-
