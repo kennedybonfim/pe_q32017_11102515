@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 unsigned int tamanho(char *c)
 {
